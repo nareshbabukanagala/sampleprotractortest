@@ -7,7 +7,8 @@ pipeline {
 
         stage('npm install') {
              steps {
-          sh 'npm install -g protractor'
+                 sh 'node -version'
+        //  sh 'npm install -g protractor'
              }
         }
          stage('webdriver update') {
