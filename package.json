@@ -1,0 +1,22 @@
+{
+  "name": "sampleprotractortest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nareshbabukanagala/sampleprotractortest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nareshbabukanagala/sampleprotractortest/issues"
+  },
+  "homepage": "https://github.com/nareshbabukanagala/sampleprotractortest#readme",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}
