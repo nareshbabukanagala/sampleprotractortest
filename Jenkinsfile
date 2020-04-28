@@ -6,14 +6,20 @@ pipeline {
     stages {
 
         stage('npm install') {
+             steps {
           sh 'npm install'
+             }
         }
          stage('webdriver update') {
+              steps {
           sh 'webdriver-manager update'
+              }
         }
 
         stage('Run test') {
-          sh 'protractor conf.js'         
+             steps {
+          sh 'protractor conf.js'   
+             }      
         }
     }
 }
