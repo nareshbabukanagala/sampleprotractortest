@@ -1,7 +1,7 @@
 // An example configuration file.
 exports.config = {
   // directConnect: true,
-
+  // test
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
     browserName: "chrome",
